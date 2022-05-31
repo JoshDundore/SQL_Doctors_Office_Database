@@ -1,0 +1,28 @@
+CREATE TABLE `hospital`.`billing_bak` AS SELECT * FROM `hospital`.`billing`;
+CREATE TABLE `hospital`.`doctor_bak` AS SELECT * FROM `hospital`.`doctor`;
+CREATE TABLE `hospital`.`doctorspecialty_bak` AS SELECT * FROM `hospital`.`doctorspecialty`;
+CREATE TABLE `hospital`.`medicaltest_bak` AS SELECT * FROM `hospital`.`medicaltest`;
+CREATE TABLE `hospital`.`patient_bak` AS SELECT * FROM `hospital`.`patient`;
+CREATE TABLE `hospital`.`patientvisit_bak` AS SELECT * FROM `hospital`.`patientvisit`;
+CREATE TABLE `hospital`.`person_bak` AS SELECT * FROM `hospital`.`person`;
+CREATE TABLE `hospital`.`prescription_bak` AS SELECT * FROM `hospital`.`prescription`;
+CREATE TABLE `hospital`.`specialty_bak` AS SELECT * FROM `hospital`.`specialty`;
+
+DROP TABLE `hospital`.`billing_bak`;
+CREATE TABLE `hospital`.`billing_bak` AS SELECT * FROM `hospital`.`billing`;
+DROP TABLE `hospital`.`doctor_bak`;
+CREATE TABLE `hospital`.`doctor_bak` AS SELECT * FROM `hospital`.`doctor`;
+DROP TABLE `hospital`.`doctorspecialty_bak`;
+CREATE TABLE `hospital`.`doctorspecialty_bak` AS SELECT * FROM `hospital`.`doctorspecialty`;
+DROP TABLE `hospital`.`medicaltest_bak`;
+CREATE TABLE `hospital`.`medicaltest_bak` AS SELECT * FROM `hospital`.`medicaltest`;
+DROP TABLE `hospital`.`patient_bak`;
+CREATE TABLE `hospital`.`patient_bak` AS SELECT * FROM `hospital`.`patient`;
+DROP TABLE `hospital`.`patientvisit_bak`;
+CREATE TABLE `hospital`.`patientvisit_bak` AS SELECT * FROM `hospital`.`patientvisit`;
+DROP TABLE `hospital`.`person_bak`;
+CREATE TABLE `hospital`.`person_bak` AS SELECT * FROM `hospital`.`person`;
+DROP TABLE `hospital`.`prescription_bak`;
+CREATE TABLE `hospital`.`prescription_bak` AS SELECT * FROM `hospital`.`prescription`;
+DROP TABLE `hospital`.`specialty_bak`;
+CREATE TABLE `hospital`.`specialty_bak` AS SELECT * FROM `hospital`.`specialty`;
